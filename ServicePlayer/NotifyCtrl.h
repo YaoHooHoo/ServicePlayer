@@ -1,0 +1,25 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+//		托盘控制类头文件 NotifyCtrl.h
+/////////////////////////////////////////////////////////////////////////////////////////
+#pragma once
+#include "localdef.h"
+
+/////////////////////////////////////////////////////////////////////////////////////////
+class CNotifyCtrl
+{
+
+public:
+	CNotifyCtrl(void);
+	~CNotifyCtrl(void);
+
+public:
+	//进入托盘状态
+	void SetNotifyIcon(HINSTANCE hInstance,HWND hWnd);
+	//删除托盘
+	void DeleteNotifyIcon(HWND hWnd);
+	//托盘消息
+	LRESULT OnNotifyIconMessage(HWND hWnd,WPARAM wParam,LPARAM lParam);
+	//菜单命令处理函数
+	BOOL OnMenuCommand(HWND hWnd,WPARAM wParam,LPARAM lParam);
+};
+

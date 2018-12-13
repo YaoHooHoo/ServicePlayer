@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="VideoPlayer">
+      <UniqueIdentifier>{3d3932b4-5a78-4287-a4c8-7d374214532d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SocketSink">
+      <UniqueIdentifier>{95348335-34ca-4cb5-b7d6-fc4968a28536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlobalFiles">
+      <UniqueIdentifier>{5072d3f2-3d3d-4912-970d-e82871a60f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoginWnd">
+      <UniqueIdentifier>{726c2dd4-5120-4126-a42e-dbf54c0bf0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HttpDataManage">
+      <UniqueIdentifier>{88c28ff3-c7d6-4dfe-bc6d-1efbbb57a5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StatusWnd">
+      <UniqueIdentifier>{d265a68c-c515-4f78-9de5-1dc844a80c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkinControl">
+      <UniqueIdentifier>{a3fdc5b9-c583-4371-849e-a2ac8ce1e875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogManage">
+      <UniqueIdentifier>{85bcf133-1917-4620-ae68-138e0b9a7f99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\ServicePlayer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ServicePlayer.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn_accept.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn_reject.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn_stop.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn_accept_30.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn_reject_30.png">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServicePlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicePlayerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="localdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserVideoWnd.h">
+      <Filter>VideoPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoWnd.h">
+      <Filter>VideoPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoSockSink.h">
+      <Filter>SocketSink</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolsFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>LoginWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpDataManage.h">
+      <Filter>HttpDataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpDownLoad.h">
+      <Filter>HttpDataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicDataManage.h">
+      <Filter>HttpDataManage</Filter>
+    </ClInclude>
+    <ClInclude Include="NotifyCtrl.h">
+      <Filter>LoginWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusDlg.h">
+      <Filter>StatusWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmDlg.h">
+      <Filter>StatusWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinImage.h">
+      <Filter>SkinControl</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinButton.h">
+      <Filter>SkinControl</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFileManage.h">
+      <Filter>LogManage</Filter>
+    </ClInclude>
+    <ClInclude Include="TopicNotifyDlg.h">
+      <Filter>StatusWnd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ServicePlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicePlayerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserVideoWnd.cpp">
+      <Filter>VideoPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoWnd.cpp">
+      <Filter>VideoPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoSockSink.cpp">
+      <Filter>SocketSink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\globaldef\globaldef.cpp">
+      <Filter>GlobalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\globaldef\ProtocolFunction.cpp">
+      <Filter>GlobalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\globaldef\ServiceThread.cpp">
+      <Filter>GlobalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolsFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\globaldef\myFile.cpp">
+      <Filter>GlobalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\globaldef\ReadIniFile.cpp">
+      <Filter>GlobalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>LoginWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpDataManage.cpp">
+      <Filter>HttpDataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpDownLoad.cpp">
+      <Filter>HttpDataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicDataManage.cpp">
+      <Filter>HttpDataManage</Filter>
+    </ClCompile>
+    <ClCompile Include="NotifyCtrl.cpp">
+      <Filter>LoginWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusDlg.cpp">
+      <Filter>StatusWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmDlg.cpp">
+      <Filter>StatusWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinImage.cpp">
+      <Filter>SkinControl</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinButton.cpp">
+      <Filter>SkinControl</Filter>
+    </ClCompile>
+    <ClCompile Include="LogFileManage.cpp">
+      <Filter>LogManage</Filter>
+    </ClCompile>
+    <ClCompile Include="TopicNotifyDlg.cpp">
+      <Filter>StatusWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\globaldef\MemManage.cpp">
+      <Filter>GlobalFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ServicePlayer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
